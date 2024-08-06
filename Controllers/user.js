@@ -44,3 +44,6 @@ catch(error){
        res.json(error.message);
     }
  }
+ export const profile=async(req,res)=>{
+    res.json({user:req.user});
+ }

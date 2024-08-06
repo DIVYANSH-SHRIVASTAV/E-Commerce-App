@@ -15,7 +15,8 @@ import addressRouter from './Routes/address.js';
  app.use('/api/product',productRouter);
  //cart Router
  app.use("/api/cart",cartRouter);
- // add Address
+ // add Address 
+ //git check comment
  app.use("/api/address",addressRouter);
  mongoose.connect("mongodb+srv://DIVYANSH:Divyansh930@cluster0.1fdgimp.mongodb.net/",{dbName:"MERN_E_Commerce"})
  .then(()=>{console.log("Mongo DB is connected Successfully..")})
